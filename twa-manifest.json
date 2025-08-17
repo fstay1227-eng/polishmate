@@ -1,0 +1,35 @@
+{
+  "packageId": "com.polishmate.app",
+  "host": "thriving-sunburst-e1113f7.netlify.app",
+  "name": "PolishMate",
+  "shortName": "Polish",
+  "themeColor": "#1976D2",
+  "backgroundColor": "#FFFFFF",
+  "navigationColor": "#1976D2",
+  "navigationColorDark": "#1976D2",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "fullScopeUrl": "https://thriving-sunburst-e1113f7.netlify.app/",
+  "webManifestUrl": "https://thriving-sunburst-e1113f7.netlify.app/manifest.json",
+  "iconUrl": "https://thriving-sunburst-e1113f7.netlify.app/app-icon-mono.png",
+  "maskableIconUrl": "https://thriving-sunburst-e1113f7.netlify.app/app-icon-mono.png",
+  "monochromeIconUrl": "https://thriving-sunburst-e1113f7.netlify.app/app-icon-mono.png",
+  "splashScreenFadeOutDuration": 200,
+  "features": {
+    "playBilling": {
+      "enabled": true
+    },
+    "locationDelegation": false,
+    "webToAppUrlHandling": {
+      "enabled": true,
+      "enabledForOrigins": [
+        "https://thriving-sunburst-e1113f7.netlify.app"
+      ]
+    }
+  },
+  "appVersion": 1,
+  "appVersionName": "1.0.0",
+  "generatorApp": "bubblewrap-cli"
+}
